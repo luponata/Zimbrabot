@@ -1,0 +1,1 @@
+../../zimbrabot.sh
