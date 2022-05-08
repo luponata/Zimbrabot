@@ -52,7 +52,7 @@ ln -s /etc/zimbrabot/zimbrabot /usr/sbin/
 fi
 
 if [ ! -e /usr/bin/certbot ]; then
-#sudo apt-get install snap -y #In some ubuntu versions the package is "snapd" not "snap"
+sudo apt-get install snapd -y #In some ubuntu versions the package is "snapd" not "snap"
 sudo snap install core; sudo snap refresh core
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
