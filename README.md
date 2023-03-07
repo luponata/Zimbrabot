@@ -1,4 +1,4 @@
-# Zimbrabot
+# Zimbrabot SSL
 Zimbra Let's Encrypt automation script
 
 An old bash implementation, needs rework
